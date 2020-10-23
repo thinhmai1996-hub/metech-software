@@ -1,0 +1,166 @@
+.phone {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
+/* Begin: Header */
+.img-header {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+.text-header h1 {
+  text-transform: uppercase;
+  padding-right: 703px;
+}
+.text-header p {
+  padding-right: 1061px;
+  padding-right: 955px;
+}
+
+.text-header {
+  position: absolute;
+  top: 10rem;
+  left: 4rem;
+}
+
+/* End: Header */
+
+#content {
+  position: relative;
+  top: 2rem;
+}
+
+.bg-item {
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 0;
+}
+
+/* Item-1 */
+.text-content {
+  padding: 20px;
+}
+.text-content h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #021654;
+}
+
+.span-text {
+  color: #021654 !important;
+  font-weight: bold !important;
+  font-size: 1rem;
+}
+
+.btn-text {
+  text-align: center;
+}
+.btn-text button {
+  width: 100%;
+  text-transform: uppercase;
+  background: #43b5e6;
+  border-radius: 20px !important;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.img-design {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+}
+.img-design img {
+  width: 100%;
+}
+
+/* IPhone X */
+@media screen and (max-width: 767px) {
+  /* item-1 */
+  .phone {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .text-content {
+    margin-top: 1rem;
+  }
+
+  .img-design {
+    width: 210px;
+  }
+  /* item-2 */
+
+  .text-header h1 {
+    padding-right: 53px;
+    font-size: 0.5rem;
+  }
+  .text-header p {
+    padding-right: 115px;
+    font-size: 0.3rem;
+  }
+
+  .text-header {
+    position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+  }
+  .bg-logo {
+    padding: 1rem 2rem 1rem 1rem !important;
+}
+}
+
+/* IPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+  /* item-2 */
+  .text-header h1 {
+    padding-right: 350px;
+  }
+  .text-header p {
+    padding-right: 460px;
+  }
+
+  .text-header {
+    position: absolute;
+    top: 5.5rem;
+    left: 4rem;
+  }
+  .img-design {
+    width: 250px;
+  }
+}
+
+/* Ipad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+
+  /* item-2 */
+  .text-header h1 {
+    padding-right: 503px;
+  }
+  .text-header p {
+    padding-right: 715px;
+  }
+
+  .text-header {
+    position: absolute;
+    top: 9rem;
+    left: 4rem;
+  }
+}
+
+/* DeskTop */
+@media screen and (min-width: 1200px)  {
+  .text-header {
+    top: 12.5rem;
+    left: 4rem;
+  }
+}
+
